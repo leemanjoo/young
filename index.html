@@ -45,23 +45,23 @@
 
 
 <body>
-    <header class="sticky-top bg-white shadow-sm py-3">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="영시스템 로고" class="logo-img" />
-            </a>
+    <div class="container text-center">
+        <!-- 1. 가운데 정렬된 로고 -->
+        <a class="navbar-brand d-block mb-2" href="#">
+            <img src="images/logo.png" alt="영시스템 로고" class="logo-img" />
+        </a>
 
-            <nav class="nav gap-3 justify-content-center w-100 mt-2 mt-md-0">
-                <a class="nav-link" href="#room">객실관리 시스템 <span class="small">(드라이브인 / 호텔 / 모텔)</span></a>
-                <a class="nav-link" href="#product">제품소개</a>
-                <a class="nav-link" href="#application">Application</a>
-                <a class="nav-link" href="#support">고객센터</a>
-            </nav>
+        <!-- 2. 한 줄짜리 메뉴바 -->
+        <nav class="nav justify-content-center flex-wrap gap-3 mb-2">
+            <a class="nav-link" href="#room">객실관리 시스템</a>
+            <a class="nav-link" href="#product">제품소개</a>
+            <a class="nav-link" href="#application">Application</a>
+            <a class="nav-link" href="#support">고객센터</a>
+        </nav>
 
-            <div class="contact ms-md-auto mt-2 mt-md-0 w-100 text-center text-md-end">
-                Tel : 010 2880 3613
-            </div>
-        </div>
+        <!-- 3. 하단 연락처 -->
+        <div class="contact">Tel : 010 2880 3613</div>
+    </div>
     </header>
 
     <!-- ✅ 객실관리시스템 -->
@@ -312,7 +312,7 @@
     </div>
 
     <footer class="border-top footer text-muted mt-5">
-         <div class="container text-center small text-muted">
+        <div class="container text-center small text-muted">
             <h5 class="text-primary mb-3">고객센터 · 회사정보</h5>
             <p class="mb-1">상호명: 영시스템</p>
             <p class="mb-1">대표자: 이만주</p>
